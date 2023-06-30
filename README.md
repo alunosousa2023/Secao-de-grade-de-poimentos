@@ -1,2 +1,2 @@
 # Secao-de-grade-de-poimentos
- Seção de grade de depoimento
+ Seção de depoimento utilizando CSS grid
