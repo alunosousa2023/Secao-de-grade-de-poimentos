@@ -15,6 +15,10 @@
     box-sizing: border-box;
 }
 
+h1 {
+    display: none;
+}
+
 html, body {
     background-color: #EDF2F8;
     width: 100vw;
