@@ -1,1 +1,125 @@
 @charset "UTF-8";
+
+:root {
+    --cor1: #7343D9;
+    --cor2: #FFFFFF;
+    --cor3: #49556B;
+    --cor4: #18202D;
+    --cor5: #EDF2F8;
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+   
+
+main {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    background-color: bisque;
+
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: grid;
+    width: 375px;
+    height: auto;
+    background-color:#EDF2F8;
+    padding: 15px;
+
+    grid-template-areas: 'item1' 'item2' 'item3' 'item4' 'item5';
+
+}
+
+div {
+    margin-bottom: 10px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.h2_item1_item2_item4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-top: 20px;
+    color: white;
+}
+
+.h2_item3_item5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-top: 20px;
+    color: black;
+}
+
+.item1 {
+    background-color: #7343D9;
+    grid-area: item1;
+}
+
+
+
+img {
+    border-radius: 50%;
+    border: 2px solid #8d66e1;
+}
+
+.item_1a {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+    align-items: center;   
+}
+
+.pg_itens {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin-left: 15px;
+}
+
+.pg_itens1-5 {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin-top: 20px;
+}
+
+em {
+    font-size: 0.9em;
+}
+
+.item2 {
+    background-color: #49556B;
+    grid-area: item2;
+}
+
+.item3 {
+    background-color: #FFFFFF;
+    grid-area: item3;
+}
+
+.item4 {
+    background-color: #18202D;
+    grid-area: item4;
+}
+
+.item5 {
+    background-color: #FFFFFF;
+    grid-area: item5;
+}
