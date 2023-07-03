@@ -16,7 +16,9 @@
 }
 
 h1 {
-    display: none;
+    font-size: 0px;
+    width: 0px;
+    height: 0px;
 }
 
 html, body {
