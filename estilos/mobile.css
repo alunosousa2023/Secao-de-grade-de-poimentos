@@ -70,10 +70,13 @@ div {
 }
 
 .item1 {
+    background-image: url('../imagens/bg-pattern-quotation.svg');
+    background-size: 140px 140px;
+    background-position-x: 90%;
+    background-repeat: no-repeat;
     background-color: #7343D9;
     grid-area: item1;
 }
-
 
 
 img {
